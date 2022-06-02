@@ -1,3 +1,11 @@
+This code solves a set of fluid plasma equations (MHD like) in a 3D cartesian
+geomtery. 
+The time advancing scheme is an explicit III order Adams-Bashforth method.
+Periodic boundary conditions are imposed in two of the three spatial directions. 
+FFT are adopted for spatial operations along the periodic directions, while alogithms based on Compact Finite Difference schemes is 
+used along the non-periodic one.
+Concerning the parallelization, the points of the two periodic directions are distributed among the processors.
+
 new_recon.f: main program
 
 in.com: 
