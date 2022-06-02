@@ -7,10 +7,10 @@ used along the non-periodic one.
 Concerning the parallelization, the points of the two periodic directions are distributed among the processors.
 
 To compile the on M100:
-module load autoload spectrum_mpi/10.3.1--binary
-module load autoload xl/16.1.1--binary
-make clean
-make -f Makefile
+- module load autoload spectrum_mpi/10.3.1--binary
+- module load autoload xl/16.1.1--binary
+- make clean
+- make -f Makefile
 
 
 new_recon.f: main program
