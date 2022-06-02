@@ -3,9 +3,9 @@
 #------------------------------------
 MPICH=
 
-F90= mpiifort
+F90= mpixlf
 
-FFLAGS =  -O3 -g -c -mcmodel=medium 
+FFLAGS =  -O2 -g -c 
 
 all: $(COMM) MAIN
 
