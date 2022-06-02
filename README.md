@@ -49,7 +49,12 @@ out_inv.f
 - output file for energy components and invariant quantities (energuie.dat )
 
 
-
+Directory PRO
+- post process the simulation results. In particular,
+  gamma_eta.pro 
+    - tests the accuracy of the simulation resulting from the combination of the KH mode and resistive tearing mode
+  gamma_de.pro
+    - tests the accuracy of the simulation resulting from the combination of the KH mode and collisionless tearing mode
 
 
 
