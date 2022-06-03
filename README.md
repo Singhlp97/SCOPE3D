@@ -12,6 +12,7 @@ To compile the code on M100:
 - make clean
 - make -f Makefile
 
+Once the compilatation ends successfully, the file turb_rec.x can be used to run the simulation through slurm_turb_rec
 
 new_recon.f: main program
 
